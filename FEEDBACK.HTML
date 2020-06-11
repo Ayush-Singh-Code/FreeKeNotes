@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="FEEDBACK.CSS">
+    <title>FEEDBACK/FREE KE NOTES</title>
+</head>
+<body class="bg-dark">
+  <!-- nav bar html start  -->
+  <header class="bg-dark text-white">
+    <a  class="logo ">Free Ke Notes</a>
+    <div class="menu-toggle"></div>
+    <nav>
+        <ul >
+            <li><a href="HOME.HTML" class="active text-white bg-dark">Home</a></li>
+            <li><a href="SUBJECT.HTML" class="text-white bg-dark">Subject</a></li>
+            <li><a href="FEEDBACK.HTML"class="text-white bg-dark">Feedback</a></li>
+            <li><a href="HELP.HTML"class="text-white bg-dark">Help</a></li>
+        </ul>
+        </nav>
+    <div class="clearfix"></div>
+     </header>  
+   <!-- nav bar html end  -->
+    <section class="bg-primary text-white">
+        <article class="py-5 text-center">
+           <div>
+             <h1>Feel free to give feedback</h1>
+           </div>
+           </article>
+           </section>
+
+
+
+    <!-- form start  -->
+    <form class=" container-fluid  bg-dark text-white" name="netlify">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Occupation</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Business</option>
+            <option>Student</option>
+            <option>Govt.job</option>
+            <option>Private job</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Write Feedback here</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    <!-- form end  -->
+     <section class=" bg-dark text-white">
+     <article class="py-5 text-center">
+           <div>
+             <h1>Tell to your freind about this website</h1>
+             <h1>THANKS! For your valuable feedback</h1>
+           </div>
+           </article>
+           </section>
+
+    <!-- nav bar js  -->
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+ integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script> 
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+  
+        $('.menu-toggle').click(function(){
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    })
+  </script>   
+  
+  
+  
+  <!-- nav bar js end  -->
+    <script src="FEEDBACK.JS.JS"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
